@@ -1,4 +1,6 @@
-
+function isMobile(){
+	return navigator.userAgent.match(/(iPhone|iPod|iPad|blackberry|android|Kindle|htc|lg|midp|mmp|mobile|nokia|opera mini|palm|pocket|psp|sgh|smartphone|symbian|treo mini|Playstation Portable|SonyEricsson|Samsung|MobileExplorer|PalmSource|Benq|Windows Phone|Windows Mobile|IEMobile|Windows CE|Nintendo Wii)/i);
+}
             const urlParams2 = new URLSearchParams(window.location.search);
             const code2 = urlParams2.get('code');
             if(code2){
