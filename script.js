@@ -53,7 +53,7 @@ function isMobile(){
                 },250)
             }
             function redirectDC () {
-                location.href = "https://discord.com/oauth2/authorize?client_id=1304864116418281614&response_type=code&redirect_uri=https%3A%2F%2Fdata.desaux.000.pe%2Firis%2Finstaller%2F&scope=identify";
+                location.href = "https://discord.com/oauth2/authorize?client_id=PECH GEHABT ABAHHAH&response_type=code&redirect_uri=https%3A%2F%2Fdata.desaux.000.pe%2Firis%2Finstaller%2F&scope=identify";
             }
             function hideErrorDC () {
                 document.getElementById("errorMsg").style.opacity = "0";
