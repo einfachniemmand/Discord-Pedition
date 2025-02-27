@@ -9,7 +9,7 @@ function isMobile(){
                     client_secret: 'CLIENT_SECRET', 
                     grant_type: 'authorization_code',
                     code: code2,
-                    redirect_uri: 'https://data.desaux.000.pe/iris/installer/'
+                    redirect_uri: 'input_your_fucking_own'
                 };
 
     fetch('https://discord.com/api/oauth2/token', {
@@ -53,7 +53,7 @@ function isMobile(){
                 },250)
             }
             function redirectDC () {
-                location.href = "https://discord.com/oauth2/authorize?client_id=PECH GEHABT ABAHHAH&response_type=code&redirect_uri=https%3A%2F%2Fdata.desaux.000.pe%2Firis%2Finstaller%2F&scope=identify";
+                location.href = "https://discord.com/oauth2/authorize?client_id=PECH GEHABT ABAHHAH&response_type=code&redirect_uri=https%3A%2F%2FREDIRECT_URL%2Firis%2Finstaller%2F&scope=identify";
             }
             function hideErrorDC () {
                 document.getElementById("errorMsg").style.opacity = "0";
